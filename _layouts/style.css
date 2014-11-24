@@ -1,2 +1,42 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+.img_apps {
+  float: right; 
+  width: 45%; 
+  padding-left: 3%;
+}
+
+.img_apps_thumb {
+  width: 125px; 
+}
+
+.text_apps {
+  text-align: justify;
+}
+
+@media (max-width:768px) {
+  .img_apps {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 3%;
+  }
+}
+
+table.list_apps {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 20px 5px;
+}
+
+table.list_apps td {
+  text-align: justify;
+  vertical-align: top;
+}
+
+table.list_apps tr > td { 
+  padding-bottom: 1em; 
+}
+
+

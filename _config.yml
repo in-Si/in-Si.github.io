@@ -16,36 +16,38 @@ color:
 people:
 - name: Jessie Ebie
   pic: 1
-  position: Lead Designer
+  position: Graduate Student</br>Arizona State University
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
+    - title: linkedin
+      url: https://www.linkedin.com/in/jessicaebie
+    - title: link
+      url: http://www.tedpavlic.com/
+      
 - name: Ted Pavlic
   pic: 2
-  position: Lead Marketer
+  position: Assistant Professor</br>Arizona State University
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/TedPavlic
+    - title: google-plus
+      url: https://plus.google.com/u/0/+TedPavlic
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/tedpavlic
+    - title: link
+      url: http://www.tedpavlic.com/
 
 - name: Simon Garnier
   pic: 3
-  position: Lead Developer
+  position: Assistant Professor</br>New Jersey Institute of Technology
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/sjmgarnier
     - title: google-plus
-      url: #
+      url: https://plus.google.com/u/0/+SimonGarnier
+    - title: linkedin
+      url: https://www.linkedin.com/in/simongarnier/
+    - title: link
+      url: http://www.theswarmlab.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -68,3 +70,14 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Languages
+languages: [NetLogo, R, Python]
+
+# Disciples
+disciplines: [Biology, Physics, Mathematics]
+
+
+
+
+

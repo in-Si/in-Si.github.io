@@ -232,8 +232,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
-@media(min-width:768px) {
-    .navbar-default {
+@media (min-width:768px) {
+    #frontpage.navbar-default {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -242,23 +242,23 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    .navbar-default .navbar-brand {
+    #frontpage.navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
-    .navbar-default .navbar-nav>.active>a {
+    #frontpage.navbar-default #frontpage.navbar-nav>.active>a {
         border-radius: 3px;
     }
 
-    .navbar-default.navbar-shrink {
+    #frontpage.navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
+    #frontpage.navbar-default.navbar-shrink #frontpage.navbar-brand {
         font-size: 1.5em;
     }
 }
@@ -293,7 +293,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -316,7 +316,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
