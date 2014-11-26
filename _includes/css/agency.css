@@ -242,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    #frontpage.navbar-default .navbar-brand {
+    #frontpage.navbar-default #frontpage.navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -255,6 +255,11 @@ fieldset[disabled] .btn-xl.active {
 
     #frontpage.navbar-default.navbar-shrink {
         padding: 10px 0;
+        background-color: #222;
+    }
+    
+    #page.navbar-default.navbar-fixed-top {
+        padding: 10px 100px;
         background-color: #222;
     }
 
