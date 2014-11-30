@@ -15,12 +15,26 @@
   text-align: justify;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
   .img_apps {
     float: none;
     width: 100%;
     padding-left: 0;
     padding-bottom: 3%;
+  }
+  
+  .dropdown-menu>li>a {
+    color: #fff !important;
+  }
+  
+  .dropdown-menu>li>a:hover {
+    color: #{{ site.color.primary }} !important;
+  }
+}
+
+@media (min-width:768px) {
+  .dropdown-menu>li>a {
+    color: #222 !important;
   }
 }
 
@@ -38,5 +52,3 @@ table.list_apps td {
 table.list_apps tr > td { 
   padding-bottom: 1em; 
 }
-
-
